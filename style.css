@@ -1,0 +1,42 @@
+/* to create a css use echo . */
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #555;
+    margin: 50px;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.container {
+    display: flexbox;
+    max-width: 400px;
+    margin: auto;
+    background: #b37d7d;
+    padding: 20px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}   
+.input {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+}
+.payment{
+    width: 99%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 0px solid #602424;
+    border-radius: 0px;
+}
+#calculate-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
